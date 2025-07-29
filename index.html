@@ -1,9 +1,12 @@
-<html><head></head><body>
-  <h1>Hello World</h1>
-    <p>"マウスドラックで回転、マウスホイール上下でズームができます。"</p>
-  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js">
-  </script>
-
+<!DOCTYPE html><html><head>
+  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+  <title>A room</title>
+  </head><body>
+  <h1>3Dモデリング</h1>
+  <p>マウスドラックで回転、マウスホイール上下でズームができます。</p>
+  <style> body {color:#000000, text-align: center}
+    h1 {font-size:3em}
+    p {font-size:font-size:1.5em}</style>
   <model-viewer src="room.glb" camera-controls="" touch-action="pan-y" interaction-prompt="auto" style="width:100%;height:800px;" ar-status="not-presenting">
   </model-viewer>
 
